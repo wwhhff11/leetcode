@@ -1,5 +1,5 @@
 ```go
-// https://leetcode-cn.com/problems/combination-sum-ii/
+// https://leetcode-cn.com/promoblems/combination-sum-ii/
 func dfs(candidates []int, target int, begin int, curArr []int, delta int, res *[][]int) {
     if delta == 0 { // 剩余为0
         *res = append(*res, curArr) // 找到一个结果
